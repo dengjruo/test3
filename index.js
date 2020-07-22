@@ -39,23 +39,35 @@ $(window).scroll(function() {
 
     if(scrollTop>=1600&&scrollTop<=2600){
         $(".zhuzi1").addClass("zuozhu_mv");
+        $(".zhuzi2").addClass("youzhu_mv");
+        $(".millionen1").addClass("millionen1_mv");
+        $(".millionen2").addClass("millionen2_mv");
         $(".bianxing_head").addClass("zhuhead_mv");
         $(".bianxing_body").addClass("zhubody_mv");
         $(".left_zhu_line").addClass("left_zhu_line_mv");
         $(".left_zhu_desc").addClass("left_zhu_desc_mv");
         // 运行
         var numBox = document.getElementById("left_millionen");
+
+        console.log($(".millionen1").css("top"))
+
         if(numBox.innerHTML==300){
             return
         }else{
-            numRunFun(350, 300);
+
+            setTimeout(function () {
+                numRunFun(350, 300);
+            }, 2000);
         }
     } else if(scrollTop<1700){
         $(".zhuzi1").removeClass("zuozhu_mv");
+        $(".zhuzi2").removeClass("youzhu_mv");
         $(".bianxing_head").removeClass("zhuhead_mv");
         $(".bianxing_body").removeClass("zhubody_mv");
         $(".left_zhu_line").removeClass("left_zhu_line_mv");
         $(".left_zhu_desc").removeClass("left_zhu_desc_mv");
+        $(".millionen1").removeClass("millionen1_mv");
+        $(".millionen2").removeClass("millionen2_mv");
         var numBox = document.getElementById("left_millionen");
         numBox.innerHTML = 350;
     }
@@ -69,7 +81,7 @@ $(window).scroll(function() {
            $(".fix_chilun").addClass("fix_chilun_mv");
            $(".fix_banshou").addClass("fix_banshou_mv");
            $(".fix_over_bg").addClass("fix_over_bg_mv");
-           $(".fix_over_white").addClass("fix_over_white_mv");
+           //$(".fix_over_white").addClass("fix_over_white_mv");
            $(".fix_over_dun").addClass("fix_over_dun_mv");
            $(".fix_over_gou").addClass("fix_over_gou_mv");
     } else if(scrollTop<2500){
@@ -80,7 +92,7 @@ $(window).scroll(function() {
         $(".fix_chilun").removeClass("fix_chilun_mv");
         $(".fix_banshou").removeClass("fix_banshou_mv");
         $(".fix_over_bg").removeClass("fix_over_bg_mv");
-        $(".fix_over_white").removeClass("fix_over_white_mv");
+        //$(".fix_over_white").removeClass("fix_over_white_mv");
         $(".fix_over_dun").removeClass("fix_over_dun_mv");
         $(".fix_over_gou").removeClass("fix_over_gou_mv");
     }
@@ -88,18 +100,31 @@ $(window).scroll(function() {
 
 
     if(scrollTop>=2800&&scrollTop<=3700){
-        $(".pc_play_c").addClass("pc_play_c_mv");
-        $(".pc_play_window").addClass("pc_play_window_mv");
+        $(".pc_play_outc").addClass("pc_play_outc_mv");
+        //$(".pc_play_window").addClass("pc_play_window_mv");
         $(".pc_play_rocket").addClass("pc_play_rocket_mv");
         $(".line_body").addClass("line_body_mv");
         $(".line_head").addClass("line_head_mv");
     } else if(scrollTop<2900){
-        $(".pc_play_c").removeClass("pc_play_c_mv");
-        $(".pc_play_window").removeClass("pc_play_window_mv");
+        $(".pc_play_outc").removeClass("pc_play_outc_mv");
+        //$(".pc_play_window").removeClass("pc_play_window_mv");
         $(".pc_play_rocket").removeClass("pc_play_rocket_mv");
         $(".line_body").removeClass("line_body_mv");
         $(".line_head").removeClass("line_head_mv");
     }
+
+
+    if(scrollTop>=4460&&scrollTop<=4800){
+        $(".pinglun_right_button").addClass("pinglun_right_button_mv");
+        $(".pinglun_left_button").addClass("pinglun_left_button_mv");
+
+
+    } else if(scrollTop<2900){
+        $(".pinglun_right_button").removeClass("pinglun_right_button_mv");
+        $(".pinglun_left_button").removeClass("pinglun_left_button_mv");
+    }
+
+
 
 })
 
@@ -113,9 +138,13 @@ $(window).scroll(function() {
 //红色按钮鼠标移入事件
 $(".rightbutton_body").mouseenter(function(){
     $(".rightbutton_body2").css("display","block");
+    $(".rightbutton_body2").addClass("button_mv");
+    $(".rightbutton_body").css("display","none");
 });
 $(".rightbutton_body2").mouseleave(function(){
     $(".rightbutton_body2").css("display","none");
+    $(".rightbutton_body").css("display","block");
+
 });
 
 
@@ -123,9 +152,13 @@ $(".rightbutton_body2").mouseleave(function(){
 //红色按钮鼠标移入事件2
 $(".right_list_button").mouseenter(function(){
     $(".right_list_button2").css("display","block");
+    $(".right_list_button").css("display","none");
+    $(".right_list_button2").addClass("button_mv");
 });
 $(".right_list_button2").mouseleave(function(){
     $(".right_list_button2").css("display","none");
+    $(".right_list_button").css("display","block");
+
 });
 
 
@@ -278,7 +311,7 @@ function buy_num(num1,num2){
         }
         document.getElementById("num1").innerHTML=num1;
         document.getElementById("num2").innerHTML=num2;
-    },100);
+    },1000);
 
 }
 
