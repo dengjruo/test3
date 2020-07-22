@@ -194,7 +194,7 @@ function auto(){
     $("img").attr("width","180");
     if(left_num=="0px"){
         $(".pinglun_body").addClass("trans_style");
-        $(".pinglun_body").css("left","-490px");
+        $(".pinglun_body").css("left","-510px");
 
         $(".big_head").css("background",'url("images/customer_de_88.png") no-repeat');
         $(".big_head").css("background-size",'contain');
@@ -208,8 +208,8 @@ function auto(){
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
 
-    }else if(left_num=="-490px"){
-        $(".pinglun_body").css("left","-980px");
+    }else if(left_num=="-510px"){
+        $(".pinglun_body").css("left","-1020px");
         $(".big_head").css("background",'url("images/harold_barr_476.png") no-repeat');
         $(".big_head").css("background-size",'contain');
 
@@ -222,8 +222,8 @@ function auto(){
         $(".head2").css("background-size",'contain');
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
-    }else if(left_num=="-980px"){
-        $(".pinglun_body").css("left","-1470px");
+    }else if(left_num=="-1020px"){
+        $(".pinglun_body").css("left","-1530px");
         $(".big_head").css("background",'url("images/hishaam_salasa_240.png") no-repeat');
         $(".big_head").css("background-size",'contain');
 
@@ -237,8 +237,8 @@ function auto(){
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
 
-    }else if(left_num=="-1470px"){
-        $(".pinglun_body").css("left","-1960px");
+    }else if(left_num=="-1530px"){
+        $(".pinglun_body").css("left","-2040px");
         $(".big_head").css("background",'url("images/carlos_alexandre_verissimo_670.png") no-repeat');
         $(".big_head").css("background-size",'contain');
 
@@ -251,8 +251,8 @@ function auto(){
         $(".head2").css("background-size",'contain');
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
-    } else if(left_num=="-1960px"){
-        $(".pinglun_body").css("left","-2450px");
+    } else if(left_num=="-2040px"){
+        $(".pinglun_body").css("left","-2550px");
         $(".big_head").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
         $(".big_head").css("background-size",'contain');
 
@@ -264,7 +264,7 @@ function auto(){
         $(".head2").css("background-size",'contain');
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
-    }else if(left_num=="-2450px"){
+    }else if(left_num=="-2550px"){
         $(".pinglun_body").css("left","0px");
         $(".pinglun_body").removeClass("trans_style");
         //$(".big_head").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
@@ -287,7 +287,7 @@ $(".pinglun_right_button").click(function(){
 $(".pinglun_left_button").click(function(){
     auto();
 })
-setInterval(auto, 5000);
+//setInterval(auto, 5000);
 
 
 

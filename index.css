@@ -69,7 +69,7 @@ a:hover {
 }
 
 .fix_txt{
-	width:185px;
+	width:190px;
 	height:22px;
 	font-size:26px;
 	font-family:Poppins;
@@ -587,7 +587,7 @@ a:hover {
 
 
  .contaner1_rightbutton_desc{
-	 width:211px;
+	 width:212px;
 	 height:17px;
 	 font-size:20px;
 	 font-family:Poppins;
@@ -757,7 +757,7 @@ a:hover {
 
 
 .contaner3_desc{
-	width:439px;
+	width:445px;
 	height:35px;
 	font-size:32px;
 	font-family:Poppins;
@@ -1054,7 +1054,7 @@ a:hover {
  }
 
  .contaner4_right_title{
-	 width:310px;
+	 width:315px;
 	 height:28px;
 	 font-size:34px;
 	 font-family:Poppins;
@@ -1117,7 +1117,7 @@ a:hover {
 
 
 .contaner5_left_title{
-	width:464px;
+	width:465px;
 	height:55px;
 	color:#1E1F24;
 	font-size:22px;
@@ -1494,7 +1494,7 @@ a:hover {
  }
 
  .contaner6_right_title{
-	 width:458px;
+	 width:460px;
 	 height:60px;
 	 font-size:22px;
 	 font-family:Poppins;
@@ -1628,7 +1628,7 @@ a:hover {
 }
 
 .contaner7_tile{
-	width:427px;
+	width:430px;
 	height:62px;
 	font-size:24px;
 	font-family:Poppins;
@@ -1649,7 +1649,7 @@ a:hover {
 }
 
 .contaner7_desc{
-	width:470px;
+	width:485px;
 	height:168px;
 	font-size:16px;
 	font-family:Poppins;
@@ -1774,7 +1774,7 @@ a:hover {
  }
 
  .pc_title{
-	 width:313px;
+	 width:320px;
 	 height:45px;
 	 font-size:14px;
 	 font-family:Poppins;
@@ -2187,7 +2187,7 @@ a:hover {
  }
 
  .pinglun_left{
-	 width: 490px;
+	 width: 510px;
 	 height: 330px;
 	 position: relative;
 	 overflow: hidden;
@@ -2195,7 +2195,7 @@ a:hover {
 
 
  .pinglun_left ul{
-	 width: 490px;
+	 width: 510px;
 	 position: absolute;
 	 top:0;
 	 left: 0;
@@ -2219,7 +2219,7 @@ a:hover {
  }
 
  .pinglun_left_title{
-	 width:152px;
+	 width:155px;
 	 height:19px;
 	 font-size:22px;
 	 font-family:Poppins;
@@ -2231,7 +2231,7 @@ a:hover {
 
 
  .pinglun_left_desc{
-	 width:490px;
+	 width:510px;
 	 height:180px;
 	 font-size:14px;
 	 font-family:Poppins;
@@ -2458,6 +2458,7 @@ a:hover {
 	 position: absolute;
 	 top: 0;
 	 right: -290px;
+	 opacity: 0.8;
  }
 
  .contaner9_box{
