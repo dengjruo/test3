@@ -125,22 +125,27 @@ a:hover {
 .fix_red:hover{
 	background:linear-gradient(0deg,rgba(255,31,55,1),rgba(255,80,66,1));
 	cursor: pointer;
-
-	animation: fix_red_mv 2s alternate forwards;
 }
+
+
+ .fix_red p:hover{
+	 animation: fix_red_mv 1s alternate forwards;
+ }
+
+
 
  @keyframes fix_red_mv {
 	 0%{
 
-		 -webkit-transform: rotateY(0deg);
+		 -webkit-transform: rotatex(0deg);
 	 }
 
 	 50% {
-		 -webkit-transform: rotateY(180deg);
+		 -webkit-transform: rotatex(180deg);
 	 }
 
 	 100% {
-		 -webkit-transform: rotateY(0deg);
+		 -webkit-transform: rotatex(0deg);
 	 }
  }
 
@@ -2132,7 +2137,7 @@ a:hover {
 
 .right_list_button2_p1{
 	width:79px;
-	height:14px;
+	height:20px;
 	font-size:18px;
 	font-family:Poppins;
 	font-weight:600;
@@ -3639,22 +3644,22 @@ a:hover {
  }
 
 
- .rightbutton_body2,.right_list_button2{
-	 animation: button_mv 2s alternate forwards;
+ .rightbutton_body2_txt,.right_list_button2_p1,.right_list_button2_p2{
+	 animation: button_mv 1s alternate forwards;
  }
 
  @keyframes button_mv {
 	 0%{
 
-		 -webkit-transform: rotateY(0deg);
+		 -webkit-transform: rotatex(0deg);
 	 }
 
 	 50% {
-		 -webkit-transform: rotateY(180deg);
+		 -webkit-transform: rotatex(180deg);
 	 }
 
 	 100% {
-		 -webkit-transform: rotateY(0deg);
+		 -webkit-transform: rotatex(0deg);
 	 }
  }
 

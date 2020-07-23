@@ -138,7 +138,7 @@ $(window).scroll(function() {
 //红色按钮鼠标移入事件
 $(".rightbutton_body").mouseenter(function(){
     $(".rightbutton_body2").css("display","block");
-    $(".rightbutton_body2").addClass("button_mv");
+    $(".rightbutton_body2_txt").addClass("button_mv");
     $(".rightbutton_body").css("display","none");
 });
 $(".rightbutton_body2").mouseleave(function(){
@@ -153,7 +153,8 @@ $(".rightbutton_body2").mouseleave(function(){
 $(".right_list_button").mouseenter(function(){
     $(".right_list_button2").css("display","block");
     $(".right_list_button").css("display","none");
-    $(".right_list_button2").addClass("button_mv");
+    $(".right_list_button2_p1").addClass("button_mv");
+    $(".right_list_button2_p2").addClass("button_mv");
 });
 $(".right_list_button2").mouseleave(function(){
     $(".right_list_button2").css("display","none");
@@ -286,7 +287,7 @@ $(".pinglun_right_button").click(function(){
 $(".pinglun_left_button").click(function(){
     auto();
 })
-//setInterval(auto, 5000);
+setInterval(auto, 5000);
 
 
 
