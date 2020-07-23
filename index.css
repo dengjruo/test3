@@ -166,6 +166,8 @@ a:hover {
 
 }
 
+
+
 #contaner1{
 	height: 790px;
 	/*background: red;*/
@@ -180,7 +182,7 @@ a:hover {
 	background-size:contain ;
 	position: absolute;
 	margin-left: -10px;
-	margin-top: 345px;
+	margin-top: 295px;
 }
 
  .banner_left_top_bg{
@@ -190,7 +192,7 @@ a:hover {
 	 background-size:contain ;
 	 position: absolute;
 	 left: -53px;
-	 top: -35px;
+	 top: -85px;
  }
 
  .banner_middle_bg{
@@ -199,7 +201,7 @@ a:hover {
 	 background: url("images/中间光线.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:266px;
+	 top:216px;
 	 left:396px;
  }
 
@@ -222,57 +224,57 @@ a:hover {
 
  .heng1{
 	 position: absolute;
-	 top:267px;
+	 top:217px;
 	 left:187px;
  }
 
  .heng2{
 	 position: absolute;
-	 top:287px;
+	 top:237px;
 	 left:282px;
  }
 
 
  .heng3{
 	 position: absolute;
-	 top:353px;
+	 top:303px;
 	 left:346px;
  }
 
  .heng4{
 	 position: absolute;
-	 top:445px;
+	 top:395px;
 	 left:240px;
  }
 
  .heng5{
 	 position: absolute;
-	 top:493px;
+	 top:443px;
 	 left:152px;
  }
 
  .heng6{
 	 position: absolute;
-	 top:332px;
+	 top:282px;
 	 left:495px;
  }
 
  .heng7{
 	 position: absolute;
-	 top:441px;
+	 top:391px;
 	 left:400px;
  }
 
  .heng8{
 	 position: absolute;
-	 top:337px;
+	 top:287px;
 	 left:825px;
  }
 
 
  .heng9{
 	 position: absolute;
-	 top:372px;
+	 top:322px;
 	 left:823px;
  }
 
@@ -318,7 +320,7 @@ a:hover {
 	 background: url("images/IObit_logo_dark.png32,IObit_logo_dark.jpg.png") no-repeat;
 	 background-size:contain ;
 	 position: absolute;
-	 top:110px;
+	 top:60px;
 	 left: 0;
  }
 
@@ -328,7 +330,7 @@ a:hover {
 	 background: url("images/box.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:350px;
+	 top:300px;
 	 left: -40px;
 	 z-index: 4;
  }
@@ -339,7 +341,7 @@ a:hover {
 	 background: url("images/fix_.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:440px;
+	 top:390px;
 	 left: 122px;
 	 z-index: 5;
  }
@@ -351,7 +353,7 @@ a:hover {
 	 background: url("images/Keyboard.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:235px;
+	 top:185px;
 	 left: -75px;
 	 z-index: 1;
  }
@@ -362,7 +364,7 @@ a:hover {
 	 background: url("images/Mockup.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:244px;
+	 top:194px;
 	 left:102px;
 	 z-index: 2;
 
@@ -374,7 +376,7 @@ a:hover {
 	 background: url("images/电脑第二层透明蒙版.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:243px;
+	 top:193px;
 	 left:100px;
 	 z-index: 3;
  }
@@ -385,7 +387,7 @@ a:hover {
 	 background: url("images/电脑第二层.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:285px;
+	 top:235px;
 	 left:205px;
 	 z-index: 3;
  }
@@ -395,7 +397,7 @@ a:hover {
 	 background: url("images/Driver%20Booster.png")no-repeat;
 	 background-size: contain;
 	 position: absolute;
-	 top:180px;
+	 top:130px;
 	 right: 0;
  }
 
@@ -408,7 +410,7 @@ a:hover {
 	 color:rgba(218,43,46,1);
 	 position: absolute;
 	 right: 105px;
-	 top:185px;
+	 top:135px;
 
  }
 
@@ -422,7 +424,7 @@ a:hover {
 	 line-height:32px;
 	 position: absolute;
 	 right: 15px;
-	 top:290px;
+	 top:240px;
  }
 
 .contaner1_left_button{
@@ -432,7 +434,7 @@ a:hover {
 	background-size: contain;
 	position: absolute;
 	right: 352px;
-	bottom:115px;
+	bottom:165px;
 	border: 1px solid transparent;
 }
 
@@ -518,7 +520,7 @@ a:hover {
 	 background-size: contain;
 	 position: absolute;
 	 right:-13px;
-	 bottom:77px;
+	 bottom:127px;
  }
 
 
@@ -1398,7 +1400,7 @@ a:hover {
 	 position: absolute;
 	 left: 165px;
 	 top:110px;
-	 z-index: 4;
+	 z-index: 5;
 	 visibility: hidden;
  }
 
@@ -2374,12 +2376,85 @@ a:hover {
  .big_head{
 	 width: 152px;
 	 height: 152px;
-	 background: url("images/PCMAG-editchoice.png") no-repeat;
-	 background-size: contain;
+	 /*background: url("images/PCMAG-editchoice.png") no-repeat;*/
+	 /*background-size: contain;*/
 	position: absolute;
 	 top:109px;
 	 left:25px;
+	 overflow: hidden;
  }
+
+
+
+ .big_head ul{
+	 width: 152px;
+	 height: 152px;
+	 position: absolute;
+	 top:0;
+	 left: 0;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+ .big_head li{
+	 width: 152px;
+	 height: 152px !important;
+	 position: relative;
+ }
+
+ .big_head img{
+	 display: block;
+	 width: 152px;
+	 height: 152px;
+	 position: relative;
+ }
+
+
+
+ .big_head1{
+	 background: url("images/PCMAG-editchoice.png") no-repeat;
+	 background-size: contain;
+	 width: 152px;
+	 height: 152px;
+ }
+
+ .big_head2{
+	 background: url("images/customer_de_88.png") no-repeat;
+	 background-size: cover;
+	 width: 152px;
+	 height: 152px;
+ }
+
+ .big_head3{
+	 background: url("images/harold_barr_476.png") no-repeat;
+	 background-size: cover;
+	 width: 152px;
+	 height: 152px;
+ }
+
+ .big_head4{
+	 background: url("images/hishaam_salasa_240.png") no-repeat;
+	 background-size: cover;
+	 width: 152px;
+	 height: 152px;
+ }
+
+ .big_head5{
+	 background: url("images/carlos_alexandre_verissimo_670.png") no-repeat;
+	 background-size: cover;
+	 width: 152px;
+	 height: 152px;
+ }
+
+ .big_head6{
+	 background: url("images/PCMAG-editchoice.png") no-repeat;
+	 background-size: contain;
+	 width: 152px;
+	 height: 152px;
+ }
+
+
+
 
 
  .quan_point{
@@ -2611,7 +2686,7 @@ a:hover {
 
 /*数字列表栏*/
  .contaner3_infolist_mv{
-	 animation: numinfo_mv 1s alternate forwards;
+	 animation: numinfo_mv 1s linear forwards;
  }
 
  @keyframes numinfo_mv {
@@ -2620,7 +2695,7 @@ a:hover {
 		 opacity: 0;
 		 margin-top: 196px;
 	 }
-	 100% {
+	 50%,100% {
 		 visibility: visible;
 		 opacity: 1;
 		 margin-top: 96px;
@@ -2663,24 +2738,29 @@ a:hover {
  /*柱子动画*/
 
  .zhuhead_mv{
-	 animation: zhuhead_mv 8s alternate forwards;
+	 animation: zhuhead_mv 5s linear forwards;
 	 /*visibility: hidden;*/
  }
  @keyframes zhuhead_mv {
 	 0%,25%{
-		 height: 0;
-		 width: 44px;
-		 background-position: 0 -88px;
+		 /*height: 0;*/
+		 /*width: 44px;*/
+		 /*background-position: 0 -88px;*/
+
+		 visibility: hidden;
+
 	 }
 	 45%,100% {
-		 height: 88px;
-		 width: 44px;
-		 background-position: 0 0;
+		 /*height: 88px;*/
+		 /*width: 44px;*/
+		 /*background-position: 0 0;*/
+
+		 visibility: visible;
 	 }
  }
 
  .zhubody_mv{
-	 animation: zhubody_mv 8s alternate forwards;
+	 animation: zhubody_mv 5s linear forwards;
 	 visibility: hidden;
  }
  @keyframes zhubody_mv {
@@ -2701,7 +2781,7 @@ a:hover {
  }
 
  .zuozhu_mv{
-	 animation: zuozhu_mv 8s alternate forwards;
+	 animation: zuozhu_mv 5s linear forwards;
 	 /*visibility: hidden;*/
  }
 
@@ -2719,23 +2799,35 @@ a:hover {
 		 background-position: 0 0;
 		 visibility: visible;
 		 opacity: 1;
-
 	 }
 
-	 35%,100%{
+
+	 45%{
+		 visibility: hidden;
+		 opacity: 0;
+	 }
+
+	 50%{
+		 height: 0;
+		 top:321px;
+		 background-position: 0 -268px;
+		 visibility: hidden;
+		 opacity: 0;
+	 }
+	 55%,100%{
 		 visibility: hidden;
 		 opacity: 0;
 	 }
  }
 
  .youzhu_mv{
-	 animation: youzhu_mv 8s alternate forwards;
+	 animation: youzhu_mv 5s linear forwards;
 	 /*visibility: hidden;*/
  }
 
  @keyframes youzhu_mv {
 	 0%{
-		 height: 0;
+		 height: 0px;
 		 top:321px;
 		 background-position: 0 -268px;
 		 /*visibility: visible;*/
@@ -2754,7 +2846,7 @@ a:hover {
 
 
  .left_zhu_line_mv{
-	 animation: left_zhu_line_mv 8s alternate forwards;
+	 animation: left_zhu_line_mv 5s alternate forwards;
 	 /*visibility: hidden;*/
  }
 
@@ -2771,7 +2863,7 @@ a:hover {
 
 
  .left_zhu_desc_mv{
-	 animation: left_zhu_desc_mv 8s alternate forwards;
+	 animation: left_zhu_desc_mv 5s alternate forwards;
 	 /*visibility: hidden;*/
  }
 
@@ -2788,7 +2880,7 @@ a:hover {
  }
 
  .millionen1_mv{
-	 animation: millionen1_mv 8s alternate forwards;
+	 animation: millionen1_mv 5s linear forwards;
 	 /*visibility: hidden;*/
  }
 
@@ -2801,13 +2893,13 @@ a:hover {
 		 top:55px
 	 }
 
-	 45%,100%{
+	 40%,100%{
 		 top:110px
 	 }
  }
 
  .millionen2_mv{
-	 animation: millionen2_mv 8s alternate forwards;
+	 animation: millionen2_mv 5s linear forwards;
 	 /*visibility: hidden;*/
  }
 
@@ -2929,7 +3021,7 @@ a:hover {
  }
 
  .fix_chilun_mv{
-	 animation: fix_chilun_mv 8s alternate forwards;
+	 animation: fix_chilun_mv 8s linear forwards;
 	 /*visibility: hidden;*/
  }
 
@@ -3122,7 +3214,7 @@ a:hover {
  }
 
  .line_head_mv{
-	 animation: line_head_mv 3s alternate forwards;
+	 animation: line_head_mv 2s alternate forwards;
  }
 
  @keyframes line_head_mv {
@@ -3475,7 +3567,7 @@ a:hover {
 	 100% {
 		 visibility: visible;
 		 opacity: 1;
-		 top: 440px;
+		 top: 390px;
 	 }
  }
 
@@ -3565,3 +3657,6 @@ a:hover {
 		 -webkit-transform: rotateY(0deg);
 	 }
  }
+
+
+

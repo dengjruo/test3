@@ -57,7 +57,7 @@ $(window).scroll(function() {
 
             setTimeout(function () {
                 numRunFun(350, 300);
-            }, 2000);
+            }, 1200);
         }
     } else if(scrollTop<1700){
         $(".zhuzi1").removeClass("zuozhu_mv");
@@ -73,7 +73,7 @@ $(window).scroll(function() {
     }
 
     //电脑修复
-    if(scrollTop>=1600&&scrollTop<=3200){
+    if(scrollTop>=2500&&scrollTop<=3200){
            $(".pc_lanping").addClass("pc_lanping_mv");
            $(".pc_jinggao ").addClass("pc_jinggao_mv");
            $(".pc_jingzhi").addClass("pc_jingzhi_mv");
@@ -84,17 +84,17 @@ $(window).scroll(function() {
            //$(".fix_over_white").addClass("fix_over_white_mv");
            $(".fix_over_dun").addClass("fix_over_dun_mv");
            $(".fix_over_gou").addClass("fix_over_gou_mv");
-    } else if(scrollTop<2500){
-        $(".pc_lanping").removeClass("pc_lanping_mv");
-        $(".pc_jinggao ").removeClass("pc_jinggao_mv");
-        $(".pc_jingzhi").removeClass("pc_jingzhi_mv");
-        $(".fix_bg").removeClass("fix_bg_mv");
-        $(".fix_chilun").removeClass("fix_chilun_mv");
-        $(".fix_banshou").removeClass("fix_banshou_mv");
-        $(".fix_over_bg").removeClass("fix_over_bg_mv");
-        //$(".fix_over_white").removeClass("fix_over_white_mv");
-        $(".fix_over_dun").removeClass("fix_over_dun_mv");
-        $(".fix_over_gou").removeClass("fix_over_gou_mv");
+       }else if(scrollTop<2000){
+            $(".pc_lanping").removeClass("pc_lanping_mv");
+            $(".pc_jinggao ").removeClass("pc_jinggao_mv");
+            $(".pc_jingzhi").removeClass("pc_jingzhi_mv");
+            $(".fix_bg").removeClass("fix_bg_mv");
+            $(".fix_chilun").removeClass("fix_chilun_mv");
+            $(".fix_banshou").removeClass("fix_banshou_mv");
+            $(".fix_over_bg").removeClass("fix_over_bg_mv");
+            //$(".fix_over_white").removeClass("fix_over_white_mv");
+            $(".fix_over_dun").removeClass("fix_over_dun_mv");
+            $(".fix_over_gou").removeClass("fix_over_gou_mv");
     }
 
 
@@ -182,7 +182,7 @@ function numRunFun(num, maxNum){
             numBox.innerHTML = ~~(maxNum);
             clearInterval(timer);
         }
-    },30); // 也可以调节速度
+    },15); // 也可以调节速度
 }
 
 
@@ -193,12 +193,12 @@ function auto(){
     console.log(left_num)
     $("img").attr("width","180");
     if(left_num=="0px"){
+        $(".big_head_body").css("left","-152px");
+        $(".big_head_body").addClass("trans_style");
         $(".pinglun_body").addClass("trans_style");
         $(".pinglun_body").css("left","-510px");
-
-        $(".big_head").css("background",'url("images/customer_de_88.png") no-repeat');
-        $(".big_head").css("background-size",'contain');
-
+        //$(".big_head").css("background",'url("images/customer_de_88.png") no-repeat');
+        //$(".big_head").css("background-size",'contain');
         $(".head1").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
         $(".head2").css("background",'url("images/harold_barr_476.png") no-repeat');
         $(".head3").css("background",'url("images/hishaam_salasa_240.png") no-repeat');
@@ -209,11 +209,10 @@ function auto(){
         $(".head4").css("background-size",'contain');
 
     }else if(left_num=="-510px"){
+        $(".big_head_body").css("left","-304px");
         $(".pinglun_body").css("left","-1020px");
-        $(".big_head").css("background",'url("images/harold_barr_476.png") no-repeat');
-        $(".big_head").css("background-size",'contain');
-
-
+        //$(".big_head").css("background",'url("images/harold_barr_476.png") no-repeat');
+        //$(".big_head").css("background-size",'contain');
         $(".head1").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
         $(".head2").css("background",'url("images/customer_de_88.png") no-repeat');
         $(".head3").css("background",'url("images/hishaam_salasa_240.png") no-repeat');
@@ -223,11 +222,10 @@ function auto(){
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
     }else if(left_num=="-1020px"){
+        $(".big_head_body").css("left","-456px");
         $(".pinglun_body").css("left","-1530px");
-        $(".big_head").css("background",'url("images/hishaam_salasa_240.png") no-repeat');
-        $(".big_head").css("background-size",'contain');
-
-
+        //$(".big_head").css("background",'url("images/hishaam_salasa_240.png") no-repeat');
+        //$(".big_head").css("background-size",'contain');
         $(".head1").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
         $(".head2").css("background",'url("images/customer_de_88.png") no-repeat');
         $(".head3").css("background",'url("images/harold_barr_476.png") no-repeat');
@@ -238,11 +236,10 @@ function auto(){
         $(".head4").css("background-size",'contain');
 
     }else if(left_num=="-1530px"){
+        $(".big_head_body").css("left","-608px");
         $(".pinglun_body").css("left","-2040px");
-        $(".big_head").css("background",'url("images/carlos_alexandre_verissimo_670.png") no-repeat');
-        $(".big_head").css("background-size",'contain');
-
-
+        //$(".big_head").css("background",'url("images/carlos_alexandre_verissimo_670.png") no-repeat');
+        //$(".big_head").css("background-size",'contain');
         $(".head1").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
         $(".head2").css("background",'url("images/customer_de_88.png") no-repeat');
         $(".head3").css("background",'url("images/harold_barr_476.png") no-repeat');
@@ -252,10 +249,10 @@ function auto(){
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
     } else if(left_num=="-2040px"){
+        $(".big_head_body").css("left","-760px");
         $(".pinglun_body").css("left","-2550px");
-        $(".big_head").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
-        $(".big_head").css("background-size",'contain');
-
+        //$(".big_head").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
+        //$(".big_head").css("background-size",'contain');
         $(".head1").css("background",'url("images/carlos_alexandre_verissimo_670.png") no-repeat');
         $(".head2").css("background",'url("images/customer_de_88.png") no-repeat');
         $(".head3").css("background",'url("images/harold_barr_476.png") no-repeat');
@@ -265,8 +262,10 @@ function auto(){
         $(".head3").css("background-size",'contain');
         $(".head4").css("background-size",'contain');
     }else if(left_num=="-2550px"){
+        $(".big_head_body").css("left","0px");
         $(".pinglun_body").css("left","0px");
         $(".pinglun_body").removeClass("trans_style");
+        $(".big_head_body").removeClass("trans_style");
         //$(".big_head").css("background",'url("images/PCMAG-editchoice.png") no-repeat');
         //$(".head1").css("background",'url("images/customer_de_88.png") no-repeat');
         //$(".head2").css("background",'url("images/harold_barr_476.png") no-repeat');
@@ -293,10 +292,8 @@ $(".pinglun_left_button").click(function(){
 
 
 function buy_num(num1,num2){
-
     document.getElementById("num1").innerHTML=num1;
     document.getElementById("num2").innerHTML=num2;
-
     var num1=num1
     var num2=num2
     var timer = setInterval(function(){
